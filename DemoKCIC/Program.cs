@@ -1,0 +1,34 @@
+using DemoKCIC.Components;
+using DemoKCIC.Server.Repositories.FindingTicket;
+using DemoKCIC.Server.Services.FindingTicket;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddRazorComponents()
+    .AddInteractiveServerComponents();
+
+//finding ticket
+builder.Services.AddScoped<IFindingTicketRepository, FindingTicketRepository>();
+builder.Services.AddScoped<IFindingTicketService, FindingTicketService>();
+
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error", createScopeForErrors: true);
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+
+app.UseStaticFiles();
+app.UseAntiforgery();
+
+app.MapRazorComponents<App>()
+    .AddInteractiveServerRenderMode();
+
+app.Run();
