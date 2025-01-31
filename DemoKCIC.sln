@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKCIC", "DemoKCIC\DemoKCIC.csproj", "{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{78A44C2D-29A3-42E5-B854-A3462D9B3720} = {78A44C2D-29A3-42E5-B854-A3462D9B3720}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKCIC.Server", "DemoKCIC.Server\DemoKCIC.Server.csproj", "{78A44C2D-29A3-42E5-B854-A3462D9B3720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A44C2D-29A3-42E5-B854-A3462D9B3720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A44C2D-29A3-42E5-B854-A3462D9B3720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A44C2D-29A3-42E5-B854-A3462D9B3720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A44C2D-29A3-42E5-B854-A3462D9B3720}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
