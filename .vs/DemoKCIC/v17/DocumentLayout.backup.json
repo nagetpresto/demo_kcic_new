@@ -22,8 +22,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,18 +40,10 @@
               "RelativeDocumentMoniker": "DemoKCIC\\Components\\Pages\\FindingTicket\\FindingTicket.razor",
               "ToolTip": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\Components\\Pages\\FindingTicket\\FindingTicket.razor",
               "RelativeToolTip": "DemoKCIC\\Components\\Pages\\FindingTicket\\FindingTicket.razor",
-              "ViewState": "AgIAABwBAAAAAAAAAAAlwCkBAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkBAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-03T09:49:06.892Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -55,8 +55,7 @@
               "RelativeToolTip": "DemoKCIC.Server\\Repositories\\FindingTicket\\FindingTicketRepository.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowB0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T09:49:43.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T09:49:43.947Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "DemoKCIC\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T03:19:59.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T03:19:59.521Z"
             }
           ]
         }

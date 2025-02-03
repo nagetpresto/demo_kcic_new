@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\DemoKCIC\\DemoKCIC\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DemoKCIC.bundle.scp.css",
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DemoKCIC.bundle.scp.css",
       "PackagePath": "staticwebassets\\DemoKCIC.m4gwcpdjzn.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\DemoKCIC\\DemoKCIC\\wwwroot\\app.css",
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\DemoKCIC\\DemoKCIC\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\DemoKCIC\\DemoKCIC\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\DemoKCIC\\DemoKCIC\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

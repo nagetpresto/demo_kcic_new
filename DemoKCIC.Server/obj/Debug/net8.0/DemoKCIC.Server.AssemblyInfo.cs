@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoKCIC.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c2471284c1300bacecd514e12f1530d7c79a6da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56a7fd2320d87d664391cb1384b293b5c4915c6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoKCIC.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoKCIC.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
