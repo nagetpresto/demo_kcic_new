@@ -208,17 +208,19 @@
             ");
     }
 
+    
     private async Task ToggleRecording()
     {
         isRecording = !isRecording;
-
         try
         {
             if (isRecording)
             {
                 // start recording
+                await JSRuntime.InvokeVoidAsync("console.log", "record start");
                 inputValue = string.Empty;
                 inputValue = await FindingTicketService.StartRecordingAsync(selectedLanguage);
+                await JSRuntime.InvokeVoidAsync("console.log", "record end");
                 inputValue = "cari tiket kawang suma rekon tanggal 20 januari 2025 sampai 23 januari 2025";
                 isRecording = false;
                 jsonString = await FindingTicketService.ExtractPromptAsync("[{\"code\":\"IDHMA\",\"name\":\"Halim\"},{\"code\":\"IDKGA\",\"name\":\"Karawang\"},{\"code\":\"IDPGA\",\"name\":\"Padalarang\"},{\"code\":\"IDTLA\",\"name\":\"TegaluarSummarecon/Bandung\"}]." + inputValue + ". jadikan bentuk json object dengan field From (ambil code), To (ambil code), DepartureDate (YYYYMMDD), ArrivaleDate (YYYYMMDD), IsTermurah (boolean). Beri null/false jika tidak ada valuenya");
@@ -234,9 +236,11 @@
                 Console.WriteLine(fromCode + "," + toCode + "," + fromDate + "," + toDate);
 
                 // get ticket berangkat kcic
+                await JSRuntime.InvokeVoidAsync("console.log", "request gpt");
                 var tiketBerangkatList = JsonConvert.DeserializeObject<dynamic>(await FindingTicketService.GetTicket(fromCode, toCode, fromDate));
 
                 // tiket brangkat
+                await JSRuntime.InvokeVoidAsync("console.log", "process berangkat");
                 tiketBerangkat.Clear();
                 if (tiketBerangkatList != null)
                 {
@@ -291,6 +295,7 @@
                 
                 // tiket pulang
                 if (toDate != null){
+                    await JSRuntime.InvokeVoidAsync("console.log", "process pulang");
                     var tiketPulangList = JsonConvert.DeserializeObject<dynamic>(await FindingTicketService.GetTicket(toCode, fromCode, toDate));
                     tiketPulang.Clear();
 
