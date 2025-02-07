@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\Bilqi\OneDrive\Desktop\demo_kcic_new\DemoKCIC\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2025-02-03T10:07:53.3644334Z||;True|2025-02-03T17:07:31.1357612+07:00||;</History>
+    <History>True|2025-02-07T08:03:33.1511618Z||;True|2025-02-03T17:07:53.3644334+07:00||;True|2025-02-03T17:07:31.1357612+07:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

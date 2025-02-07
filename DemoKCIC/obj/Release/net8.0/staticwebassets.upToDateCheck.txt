@@ -2,3 +2,8 @@ wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
 wwwroot\bootstrap\bootstrap.min.css.map
 wwwroot\favicon.png
+wwwroot\js\dist\bundle.js
+wwwroot\js\package.json
+wwwroot\js\package-lock.json
+wwwroot\js\src\index.js
+wwwroot\js\webpack.config.js

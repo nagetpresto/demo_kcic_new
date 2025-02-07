@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ef0iFGM1aVG2sDFhd5u1AjVPQgSPbfFr6OVGzmsEUXI=",
+  "Hash": "xXzFOKX5/b0idoHfDOUZtXHbmd4N3+EJFItIr5RzA04=",
   "Source": "DemoKCIC",
   "BasePath": "_content/DemoKCIC",
   "Mode": "Default",
@@ -141,6 +141,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\dist\\bundle.js",
+      "SourceId": "DemoKCIC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\",
+      "BasePath": "_content/DemoKCIC",
+      "RelativePath": "js/dist/bundle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kdf78fehjp",
+      "Integrity": "mA2+m9ZWZRhX00+SbglpWs35TFCa5MKOsZIVJ4sgO8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dist\\bundle.js"
+    },
+    {
+      "Identity": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\package.json",
+      "SourceId": "DemoKCIC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\",
+      "BasePath": "_content/DemoKCIC",
+      "RelativePath": "js/package#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z5sd2ssjiw",
+      "Integrity": "14FdjOdvhbNhH4OYF40+QxToMwwM95sIrPypWS0PovU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\package.json"
+    },
+    {
+      "Identity": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\package-lock.json",
+      "SourceId": "DemoKCIC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\",
+      "BasePath": "_content/DemoKCIC",
+      "RelativePath": "js/package-lock#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "po5jr9gdm0",
+      "Integrity": "d12OKBhbm7KCEFBJm+lTf/ujF9nlTxPGAKNxehILbeY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\package-lock.json"
+    },
+    {
+      "Identity": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\src\\index.js",
+      "SourceId": "DemoKCIC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\",
+      "BasePath": "_content/DemoKCIC",
+      "RelativePath": "js/src/index#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oco3b7gli3",
+      "Integrity": "+Lr+bwbbKcL+huN2LxGnMlB/phB1hGFf+ns6DxsSlq4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\src\\index.js"
+    },
+    {
+      "Identity": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\webpack.config.js",
+      "SourceId": "DemoKCIC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\",
+      "BasePath": "_content/DemoKCIC",
+      "RelativePath": "js/webpack.config#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "deypwwuvxh",
+      "Integrity": "m0ViE6i45TTcPVpJR63d7m5kQb5N23hyk0MrI2OR0pc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\webpack.config.js"
     }
   ],
   "Endpoints": [
@@ -633,6 +738,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "js/dist/bundle.js",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\dist\\bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1438279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mA2+m9ZWZRhX00+SbglpWs35TFCa5MKOsZIVJ4sgO8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:40:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mA2+m9ZWZRhX00+SbglpWs35TFCa5MKOsZIVJ4sgO8g="
+        }
+      ]
+    },
+    {
+      "Route": "js/dist/bundle.kdf78fehjp.js",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\dist\\bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1438279"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mA2+m9ZWZRhX00+SbglpWs35TFCa5MKOsZIVJ4sgO8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:40:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kdf78fehjp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/dist/bundle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mA2+m9ZWZRhX00+SbglpWs35TFCa5MKOsZIVJ4sgO8g="
+        }
+      ]
+    },
+    {
+      "Route": "js/package.json",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"14FdjOdvhbNhH4OYF40+QxToMwwM95sIrPypWS0PovU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-14FdjOdvhbNhH4OYF40+QxToMwwM95sIrPypWS0PovU="
+        }
+      ]
+    },
+    {
+      "Route": "js/package.z5sd2ssjiw.json",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"14FdjOdvhbNhH4OYF40+QxToMwwM95sIrPypWS0PovU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z5sd2ssjiw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/package.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-14FdjOdvhbNhH4OYF40+QxToMwwM95sIrPypWS0PovU="
+        }
+      ]
+    },
+    {
+      "Route": "js/package-lock.json",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\package-lock.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d12OKBhbm7KCEFBJm+lTf/ujF9nlTxPGAKNxehILbeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d12OKBhbm7KCEFBJm+lTf/ujF9nlTxPGAKNxehILbeY="
+        }
+      ]
+    },
+    {
+      "Route": "js/package-lock.po5jr9gdm0.json",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\package-lock.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "250417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d12OKBhbm7KCEFBJm+lTf/ujF9nlTxPGAKNxehILbeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "po5jr9gdm0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/package-lock.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d12OKBhbm7KCEFBJm+lTf/ujF9nlTxPGAKNxehILbeY="
+        }
+      ]
+    },
+    {
+      "Route": "js/src/index.js",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\src\\index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Lr+bwbbKcL+huN2LxGnMlB/phB1hGFf+ns6DxsSlq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:40:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Lr+bwbbKcL+huN2LxGnMlB/phB1hGFf+ns6DxsSlq4="
+        }
+      ]
+    },
+    {
+      "Route": "js/src/index.oco3b7gli3.js",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\src\\index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Lr+bwbbKcL+huN2LxGnMlB/phB1hGFf+ns6DxsSlq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:40:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oco3b7gli3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/src/index.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Lr+bwbbKcL+huN2LxGnMlB/phB1hGFf+ns6DxsSlq4="
+        }
+      ]
+    },
+    {
+      "Route": "js/webpack.config.deypwwuvxh.js",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\webpack.config.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m0ViE6i45TTcPVpJR63d7m5kQb5N23hyk0MrI2OR0pc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:16:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "deypwwuvxh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/webpack.config.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m0ViE6i45TTcPVpJR63d7m5kQb5N23hyk0MrI2OR0pc="
+        }
+      ]
+    },
+    {
+      "Route": "js/webpack.config.js",
+      "AssetFile": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\webpack.config.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m0ViE6i45TTcPVpJR63d7m5kQb5N23hyk0MrI2OR0pc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 17:16:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m0ViE6i45TTcPVpJR63d7m5kQb5N23hyk0MrI2OR0pc="
         }
       ]
     }
