@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}|DemoKCIC\\DemoKCIC.csproj|solutionrelative:demokcic\\components\\pages\\findingticket\\findingticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A44C2D-29A3-42E5-B854-A3462D9B3720}|DemoKCIC.Server\\DemoKCIC.Server.csproj|c:\\users\\bilqi\\onedrive\\desktop\\demo_kcic_new\\demokcic.server\\repositories\\findingticket\\findingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A44C2D-29A3-42E5-B854-A3462D9B3720}|DemoKCIC.Server\\DemoKCIC.Server.csproj|solutionrelative:demokcic.server\\repositories\\findingticket\\findingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}|DemoKCIC\\DemoKCIC.csproj|c:\\users\\bilqi\\onedrive\\desktop\\demo_kcic_new\\demokcic\\wwwroot\\js\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}|DemoKCIC\\DemoKCIC.csproj|solutionrelative:demokcic\\wwwroot\\js\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}|DemoKCIC\\DemoKCIC.csproj|c:\\users\\bilqi\\onedrive\\desktop\\demo_kcic_new\\demokcic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD3B4769-C8B3-4C7A-A56E-C06D0E651A96}|DemoKCIC\\DemoKCIC.csproj|solutionrelative:demokcic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78A44C2D-29A3-42E5-B854-A3462D9B3720}|DemoKCIC.Server\\DemoKCIC.Server.csproj|c:\\users\\bilqi\\onedrive\\desktop\\demo_kcic_new\\demokcic.server\\repositories\\findingticket\\findingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A44C2D-29A3-42E5-B854-A3462D9B3720}|DemoKCIC.Server\\DemoKCIC.Server.csproj|solutionrelative:demokcic.server\\repositories\\findingticket\\findingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,40 +34,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\src\\index.js",
+              "RelativeDocumentMoniker": "DemoKCIC\\wwwroot\\js\\src\\index.js",
+              "ToolTip": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\src\\index.js",
+              "RelativeToolTip": "DemoKCIC\\wwwroot\\js\\src\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-04T17:14:30.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FindingTicket.razor",
               "DocumentMoniker": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\Components\\Pages\\FindingTicket\\FindingTicket.razor",
               "RelativeDocumentMoniker": "DemoKCIC\\Components\\Pages\\FindingTicket\\FindingTicket.razor",
               "ToolTip": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\Components\\Pages\\FindingTicket\\FindingTicket.razor",
               "RelativeToolTip": "DemoKCIC\\Components\\Pages\\FindingTicket\\FindingTicket.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkBAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAuwIQBAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-03T09:49:06.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FindingTicketRepository.cs",
               "DocumentMoniker": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC.Server\\Repositories\\FindingTicket\\FindingTicketRepository.cs",
               "RelativeDocumentMoniker": "DemoKCIC.Server\\Repositories\\FindingTicket\\FindingTicketRepository.cs",
               "ToolTip": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC.Server\\Repositories\\FindingTicket\\FindingTicketRepository.cs",
               "RelativeToolTip": "DemoKCIC.Server\\Repositories\\FindingTicket\\FindingTicketRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowB0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T09:49:43.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\Program.cs",
-              "RelativeDocumentMoniker": "DemoKCIC\\Program.cs",
-              "ToolTip": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\Program.cs",
-              "RelativeToolTip": "DemoKCIC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T03:19:59.521Z"
+              "WhenOpened": "2025-02-04T17:59:44.978Z"
             }
           ]
         }

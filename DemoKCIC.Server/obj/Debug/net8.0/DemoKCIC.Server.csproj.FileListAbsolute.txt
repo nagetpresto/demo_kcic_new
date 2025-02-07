@@ -22,3 +22,4 @@ C:\Users\Bilqi\OneDrive\Desktop\demo_kcic_new\DemoKCIC.Server\obj\Debug\net8.0\D
 C:\Users\Bilqi\OneDrive\Desktop\demo_kcic_new\DemoKCIC.Server\obj\Debug\net8.0\refint\DemoKCIC.Server.dll
 C:\Users\Bilqi\OneDrive\Desktop\demo_kcic_new\DemoKCIC.Server\obj\Debug\net8.0\DemoKCIC.Server.pdb
 C:\Users\Bilqi\OneDrive\Desktop\demo_kcic_new\DemoKCIC.Server\obj\Debug\net8.0\ref\DemoKCIC.Server.dll
+C:\Users\Bilqi\OneDrive\Desktop\demo_kcic_new\DemoKCIC.Server\obj\Debug\net8.0\DemoKCIC.Server.sourcelink.json

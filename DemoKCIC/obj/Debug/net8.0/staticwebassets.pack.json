@@ -21,6 +21,26 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\dist\\bundle.js",
+      "PackagePath": "staticwebassets\\js\\dist\\bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\package-lock.json",
+      "PackagePath": "staticwebassets\\js\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\package.json",
+      "PackagePath": "staticwebassets\\js\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\src\\index.js",
+      "PackagePath": "staticwebassets\\js\\src\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Bilqi\\OneDrive\\Desktop\\demo_kcic_new\\DemoKCIC\\wwwroot\\js\\webpack.config.js",
+      "PackagePath": "staticwebassets\\js\\webpack.config.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DemoKCIC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

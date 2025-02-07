@@ -84,6 +84,7 @@ public class FindingTicketRepository : IFindingTicketRepository
                 int promptTokens = responseObject.usage.prompt_tokens;
                 int completionTokens = responseObject.usage.completion_tokens;
 
+                //Console.WriteLine(messageContent);
                 return messageContent;
             }
 

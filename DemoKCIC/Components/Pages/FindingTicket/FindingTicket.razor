@@ -34,6 +34,10 @@
         <button class="@ButtonBgClass" @onclick="ToggleRecording" disabled="@(!IsButtonEnabled || isRecording)">
             <span class="@ButtonIconClass"></span>
         </button>
+
+        <button class="btn btn-primary" @onclick="ToggleSearch" disabled="@(string.IsNullOrEmpty(inputValue) || isSearching)">
+            Search
+        </button>
     </div>
 
     <div class="col-sm-9">
@@ -144,6 +148,9 @@
     private string toDate = string.Empty;
     private bool isTermurah = false;
     private bool isRecording = false;
+    private bool isDataTablesInitialized = false;
+    private bool firstRender = true;
+    private bool isSearching = false;
 
     private string ButtonIconClass => isRecording ? "bi bi-stop-fill" : "bi bi-mic-fill";
     private string ButtonBgClass => isRecording ? "btn btn-danger" : "btn btn-primary";
@@ -200,15 +207,20 @@
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         // Initialize DataTables
-        await JSRuntime.InvokeVoidAsync("eval", @"
+        if (firstRender && !isDataTablesInitialized)
+        {
+            // Initialize DataTables only once
+            await JSRuntime.InvokeVoidAsync("eval", @"
                 $(document).ready(function() {
                     $('#tiketBerangkatTable').DataTable();
                     $('#tiketPulangTable').DataTable();
                 });
             ");
+            isDataTablesInitialized = true;
+            firstRender = false;
+        }
     }
 
-    
     private async Task ToggleRecording()
     {
         isRecording = !isRecording;
@@ -219,15 +231,34 @@
                 // start recording
                 await JSRuntime.InvokeVoidAsync("console.log", "record start");
                 inputValue = string.Empty;
-                inputValue = await FindingTicketService.StartRecordingAsync(selectedLanguage);
+                inputValue = await JSRuntime.InvokeAsync<string>("startRecording", selectedLanguage);
+                await JSRuntime.InvokeVoidAsync("console.log", "result, " + inputValue);
                 await JSRuntime.InvokeVoidAsync("console.log", "record end");
-                inputValue = "cari tiket kawang suma rekon tanggal 20 januari 2025 sampai 23 januari 2025";
-                isRecording = false;
-                jsonString = await FindingTicketService.ExtractPromptAsync("[{\"code\":\"IDHMA\",\"name\":\"Halim\"},{\"code\":\"IDKGA\",\"name\":\"Karawang\"},{\"code\":\"IDPGA\",\"name\":\"Padalarang\"},{\"code\":\"IDTLA\",\"name\":\"TegaluarSummarecon/Bandung\"}]." + inputValue + ". jadikan bentuk json object dengan field From (ambil code), To (ambil code), DepartureDate (YYYYMMDD), ArrivaleDate (YYYYMMDD), IsTermurah (boolean). Beri null/false jika tidak ada valuenya");
-                Console.WriteLine(jsonString);
 
-                // get input information
-                var ticketInfo = JsonConvert.DeserializeObject<dynamic>(jsonString);
+                isRecording = false;
+            }
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("");
+            Console.WriteLine($"Error in FindingTicket Page: {ex.Message}");
+        }
+
+    }
+
+    private async Task ToggleSearch(){
+        try{
+            isSearching = true;
+
+            // get input information 
+            jsonString = await FindingTicketService.ExtractPromptAsync("[{\"code\":\"IDHMA\",\"name\":\"Halim\"},{\"code\":\"IDKGA\",\"name\":\"Karawang\"},{\"code\":\"IDPGA\",\"name\":\"Padalarang\"},{\"code\":\"IDTLA\",\"name\":\"TegaluarSummarecon/Bandung\"}]. prompt: " + inputValue + ". jadikan prompt dalam bentuk 1 json object dengan field From (ambil code), To (ambil code), DepartureDate (YYYYMMDD), ArrivaleDate (YYYYMMDD), IsTermurah (boolean). Beri null/false jika tidak ada valuenya. jika tidak cukup informasi return message notfound");
+            Console.WriteLine(jsonString);
+
+            var ticketInfo = JsonConvert.DeserializeObject<dynamic>(jsonString);
+            string msg = ticketInfo?.message?.ToString() ?? string.Empty;
+
+            if(msg != "notfound"){
                 string fromCode = ticketInfo?.From?.ToString() ?? string.Empty;
                 string toCode = ticketInfo?.To?.ToString() ?? string.Empty;
                 fromDate = ticketInfo?.DepartureDate?.ToString() ?? string.Empty;
@@ -247,7 +278,8 @@
                     foreach (var ticket in tiketBerangkatList)
                     {
                         // termurah
-                        if (isTermurah){
+                        if (isTermurah)
+                        {
 
                             var tiket = new TicketList
                                 {
@@ -267,7 +299,8 @@
                         }
 
                         // all price
-                        else{
+                        else
+                        {
                             var prices = ticket.priceData;
 
                             foreach (var price in prices)
@@ -288,13 +321,14 @@
                                 tiketBerangkat.Add(tiket);
                             }
                         }
-                        
+
                     }
                 }
                 Console.WriteLine("Tiket Berangkat Count: " + tiketBerangkat.Count);
-                
+
                 // tiket pulang
-                if (toDate != null){
+                if (toDate != "")
+                {
                     await JSRuntime.InvokeVoidAsync("console.log", "process pulang");
                     var tiketPulangList = JsonConvert.DeserializeObject<dynamic>(await FindingTicketService.GetTicket(toCode, fromCode, toDate));
                     tiketPulang.Clear();
@@ -353,15 +387,16 @@
                 StateHasChanged();
 
                 await OnAfterRenderAsync(true);
-            }
 
+            }
+      
+            isSearching = false;
         }
         catch (Exception ex)
         {
             Console.WriteLine("");
             Console.WriteLine($"Error in FindingTicket Page: {ex.Message}");
         }
-
     }
 
     private string ConvertToDateFormat(string date)
